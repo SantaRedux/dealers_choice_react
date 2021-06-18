@@ -1,0 +1,23 @@
+[
+    {
+        "imageUrl": "",
+        "name": "ES",
+        "manufacturer": "Toyota",
+        "make": "Lexus",
+        "year": 1990
+    },
+    {
+        "imageUrl": "",
+        "name": "Willys Jeep",
+        "manufacturer": "Fiat Chrysler",
+        "make": "Jeep",
+        "year": 1948
+    },
+    {
+        "imageUrl": "",
+        "name": "Bel Air",
+        "manufacturer": "General Motors",
+        "make": "Chevrolet",
+        "year": 1956
+    }
+]
