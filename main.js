@@ -1,5 +1,5 @@
 const server= require('./index');
-const { conn } = require('./db');
+const { conn } = require('../db');
 
 const liftOff = async() => {
     try {

@@ -16,7 +16,7 @@ app.use(express.static(path.join(__dirname, '..', 'public')));
 app.use(express.static(path.join(__dirname, '..', 'node_modules', 'font - awesome', 'css')));
 app.use('/fonts', express.static(path.join(__dirname, '..', 'node_modules', 'font-awesome', 'fonts')));
 
-app.use('/api', require('./api'));
+app.use('/api', require('./src/api')); 
 
 app.use((req, res, next) => {
     if (path.extname(req.path).length > 0) res.status(404).end();
